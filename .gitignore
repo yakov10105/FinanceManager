@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FinanceManager/.vs
+/.vs/FinanceManager/FileContentIndex
+/FinanceManager/bin/Debug/net8.0
+/FinanceManager/FinanceManager/bin/Debug/net8.0
+/FinanceManager/FinanceManager/obj
+/FinanceManager/FinanceManager/FinanceManager.csproj.user
+/FinanceManager/obj
+/FinanceManager/finance.db
+/FinanceManager/finance.db-shm
+/FinanceManager/finance.db-wal
+/FinanceManager/FinanceManager.sln
+/FinanceManager.sln
