@@ -12,7 +12,7 @@
         public int CompareTo(Budget? other)
         {
             if (other == null) return 1;
-            return Amount.CompareTo(other.Amount);
+            return this.Amount.CompareTo(other.Amount);
         }
     }
 }

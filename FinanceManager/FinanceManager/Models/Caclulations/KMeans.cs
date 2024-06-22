@@ -39,9 +39,9 @@ public class KMeans
 
     private static double[][] InitializeCentroids(double[][] data, int k)
     {
-        Random random = new Random();
+        Random random = new();
         double[][] centroids = new double[k][];
-        HashSet<int> selectedIndices = new HashSet<int>();
+        HashSet<int> selectedIndices = [];
 
         for (int i = 0; i < k; i++)
         {
@@ -111,7 +111,7 @@ public class KMeans
         return newCentroids;
     }
 
-    private static double EuclideanDistance(double[] point1, double[] point2)
+    public static double EuclideanDistance(double[] point1, double[] point2)
     {
         double sum = 0;
         for (int i = 0; i < point1.Length; i++)

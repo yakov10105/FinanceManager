@@ -4,10 +4,7 @@ public class TransactionGraph
 {
     public Dictionary<int, List<Transaction>> AdjacencyList { get; private set; }
 
-    public TransactionGraph()
-    {
-        AdjacencyList = [];
-    }
+    public TransactionGraph() => AdjacencyList = [];
 
     public void AddTransaction(Transaction transaction)
     {
